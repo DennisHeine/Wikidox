@@ -1,4 +1,3 @@
-# Wikidox
 WikiDox is a Wiki (an information management system) with an attached document management system.<br>
 It was built with easy installation and configuration in mind.<br>
 <br>
@@ -12,7 +11,7 @@ Installation:<br>
 -------------<br>
 -Set up your mysql server. Don't create a database yet.<br>
 -(a) Create an Apache vhost entry with a reverse proxy to your dotnet core server. (something like backend.wikidox.ultracoolcompany.com):<br>
- <link><br>
+ <a href="https://raw.githubusercontent.com/DennisHeine/Wikidox/master/vhost.conf">https://raw.githubusercontent.com/DennisHeine/Wikidox/master/vhost.conf</a><br>
 -Create an Apache vhost entry for the angular client (something like wikidox.ultracoolcompany.com)<br>
  It requires a valid SSL certificate. Self signed certificates are not possible!<br>
  You can get free ssl certificates from letsencrypt.<br>
