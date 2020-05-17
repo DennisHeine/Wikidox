@@ -37,9 +37,9 @@ Client:<br>
 -edit config.json and enter the adress of the apache proxy that you have created in (a)<br>
 <br>
 Finishing stuff:<br>
--run the installer from the frontend, for example https://wikidox.ultracoolcompany.com/Install<br>
+-navigate your browser to your backend's installer, for example https://backend.wikidox.ultracoolcompany.com/api/Install/Install<br>
  this will create the initial database entries.<br>
 <br>
 First login:<br>
--navigate your browser to your backend, for example https://backend.wikidox.ultracoolcompany.com/api/Install/Install and login using admin:admin<br>
- !!!Don't forget to change the default admin password!!!
+Login using admin:admin<br>
+!!!Don't forget to change the default admin password!!!
