@@ -1,6 +1,7 @@
 WikiDox is a Wiki (an information management system) with an attached document management system.<br>
 It was built with easy installation and configuration in mind.<br>
 <br>
+<img src="https://a.fsdn.com/con/app/proj/wikidox2k/screenshots/Unbenannt.png/max/max/1"/><br><br>
 Requirements:<br>
 -------------<br>
 dotNET Core 2.1<br>
