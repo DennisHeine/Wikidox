@@ -41,5 +41,5 @@ Finishing stuff:<br>
  this will create the initial database entries.<br>
 <br>
 First login:<br>
--navigate your browser to https://wikidox.ultracoolcompany.com and login using admin:admin<br>
+-navigate your browser to your backend, for example https://backend.wikidox.ultracoolcompany.com/api/Install/Install and login using admin:admin<br>
  !!!Don't forget to change the default admin password!!!
