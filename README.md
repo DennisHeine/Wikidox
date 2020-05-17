@@ -15,6 +15,14 @@ Installation:<br>
 -Create an Apache vhost entry for the angular client (something like wikidox.ultracoolcompany.com)<br>
  It requires a valid SSL certificate. Self signed certificates are not possible!<br>
  You can get free ssl certificates from letsencrypt.<br>
+ Add the following lines to your vhost:<br><br>
+ 
+RewriteEngine On<br>
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f [OR]<br>
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d<br>
+RewriteRule ^ - [L]<br>
+RewriteRule ^ /index.html<br>
+<br>
 <br>
 Server:<br>
 -Unzip server.zip to a directory of your server that is not publically accessable.<br>
